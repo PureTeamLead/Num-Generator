@@ -1,4 +1,3 @@
-// Random number generator program
 const generate = document.getElementById('generateb')
 const reset = document.getElementById('resetb')
 
