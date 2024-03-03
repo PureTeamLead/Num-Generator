@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Random number generator</title>
+		<link rel="stylesheet" href="styles/index.css" />
+	</head>
+	<body>
+		<div class="random__wrapper">
+			<h1 class="random__title">Random number generator</h1>
+			<div class="random__form">
+				<div class="min">
+					<label for="min-input">Enter the min:</label>
+					<input type="text" id="min-input" />
+				</div>
+
+				<br />
+				<div class="max">
+					<label for="max-input">Enter the max:</label>
+					<input type="text" id="max-input" />
+				</div>
+
+				<button></button>
+			</div>
+
+			<div class="random__thenum" id="thenum">0</div>
+			<div class="buttons">
+				<div class="btn" id="generateb">Generate</div>
+				<div class="btn" id="resetb">Reset</div>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
